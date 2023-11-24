@@ -2,6 +2,8 @@
 
 Base d'une application composée du [client](client/) et du [serveur](server/).
 
+**Attention :** Privilégier l'URL `localhost` à `127.0.0.1` côté client.
+
 Commande pour générer un cookie d'une validité de 1j contenant la clé d'API :
 
 ```js
