@@ -2,6 +2,7 @@ const baseURL = 'http://localhost:3000';
 
 const instance = axios.create({
     baseURL,
+    withCredentials: true,
     headers: {
         'Content-Type': 'application/json'
     }
